@@ -1,0 +1,61 @@
+@media (max-width: 1024px) {
+    .burger_menu {
+        display: block;
+    }
+    .menu {
+        display: none;
+        width: 100%;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .search {
+        display: none;
+        justify-content: flex-end;
+    }
+    .container {
+       overflow: hidden;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .choice-inner {
+        flex-wrap: wrap;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .company {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .social-icon {
+        width: 100%;
+    }
+}
+@media (min-width: 0px) and (max-width: 992px) {
+    .form {
+        height: 100%;
+        margin-top: -100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-inner {
+        margin-top: -80px;
+    }
+
+    .about-us {
+        display: none;
+    }
+}
+@media (min-width: 0px) and (max-width: 470px){
+    .contact {
+        display: none;
+    }
+}
