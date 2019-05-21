@@ -16,7 +16,6 @@ $( document ).ready(function() {
         $(".menu-link-inner-two").hide(100);
     });
 
-//  comments 
 //    progress-bar
     $(window).scroll(function () {
         let ratio = $(document).scrollTop() / (($(document).height() - $(window).height()) / 100);
